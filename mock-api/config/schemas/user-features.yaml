@@ -1,0 +1,9 @@
+---
+initial_entries: 500
+randomize: true
+search_index: name
+name: UM_{{.rulename1}}_{{.features_tails}}{{randomNumber(999)}}
+type: {{.feature_types}}
+lastused: {{.updatedtimestamp}}
+description: {{.feature_descriptions}}
+...

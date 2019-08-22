@@ -1,0 +1,8 @@
+initial_entries: 10
+randomize: false
+search_index: id
+id: {{.batchid}},
+type: {{.scheduletype}},
+created: {{.createdtimestamp}},
+modified: {{.updatedtimestamp}},
+recurrence: {{.recurrence}}

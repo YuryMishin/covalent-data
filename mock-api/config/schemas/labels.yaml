@@ -1,0 +1,5 @@
+---
+initial_entries: 1
+randomize: false
+labels: {{.all_labels}}
+...

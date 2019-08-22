@@ -1,0 +1,14 @@
+---
+initial_entries: 10
+randomize: true
+search_index: id
+username: {{.firstname}}{{.lastname}}
+id: {{.firstname}}.{{.lastname}}
+email: {{.firstname}}.{{.lastname}}@{{.company}}.com
+firstName: {{.firstname}}
+lastName: {{.lastname}}
+created: {{.createdtimestamp}}
+modified: {{.updatedtimestamp}}
+lastAccessed: {{.updatedtimestamp}}
+capabilities: {{.capabilities}}
+...

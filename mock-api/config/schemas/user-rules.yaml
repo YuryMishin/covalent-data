@@ -1,0 +1,18 @@
+---
+initial_entries: 500
+randomize: true
+search_index: id
+id: {{randomNumber(999)}}{{.rulename1}}{{.rulename2}}{{.rulename3}}
+name: {{.rulename1}}_{{.rulename2}}_{{.rulename3}}
+author: {{.firstname}}.{{.lastname}}@{{.company}}.com
+type: User Rule
+expression: {{.expression}}
+version: {{randomNumber(100)}}
+score: {{.scores}}
+labels: {{.labels}}
+created: {{.createdtimestamp}}
+modified: {{.createdtimestamp}}
+description: {{.description}}
+category: {{.category}}
+visible: {{.boolean}}
+...

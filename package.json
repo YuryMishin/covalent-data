@@ -26,7 +26,6 @@
     "node": ">6.12.0",
     "npm": ">3"
   },
-  "repository": "https://github.com/teradata/covalent-quickstart.git",
   "license": "MIT",
   "author": "Teradata UX",
   "contributors": [
