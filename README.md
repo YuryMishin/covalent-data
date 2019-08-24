@@ -50,9 +50,13 @@ In mock-api/config are located "datum" and "schemas"
 "schemas" - The file has a .yaml extension. Here the table itself is formed.
 
 >---
+
 >initial_entries: 1
+
 >randomize: false
+
 >labels: {{.all_labels}}
+
 >...
 
 
