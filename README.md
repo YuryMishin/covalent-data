@@ -39,18 +39,27 @@ covalent-data is included in the [covalent-quickstart](https://github.com/Terada
 
 #### API configuration (short)
 In mock-api/config are located "datum" and "schemas"
+
 "datum" - Here you create files (the name is important!). In them, write the values.
+
 `Foods`
 `Drinks`
 `Drags` etc
+
+
 "schemas" - The file has a .yaml extension. Here the table itself is formed.
+
 ---
 initial_entries: 1
 randomize: false
 labels: {{.all_labels}}
 ...
 
+
 initial_entries - number of records generated
+
 randomize - If true, then randomly will take data from the datum file
+
 labels - Exist file with name "labels" in datum. Using {{.}} is important.
+
 Pay attention to the boundary lines (they are different)!
